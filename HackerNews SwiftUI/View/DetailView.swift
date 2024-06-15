@@ -25,7 +25,7 @@ struct WebView: UIViewRepresentable {
     
     let urlString: String?
     
-    func makeUIView(context: Context) -> WebView.UIViewType {
+    func makeUIView(context: Context) -> WKWebView {
         return WKWebView()
     }
     
