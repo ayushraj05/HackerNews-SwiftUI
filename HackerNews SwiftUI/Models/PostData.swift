@@ -21,6 +21,3 @@ struct Post: Codable , Identifiable {
     let url: String?
 }
 
-//struct Value: Codable{
-//    let value: String
-//}
